@@ -1,0 +1,28 @@
+[alias]
+  s = status
+	ap = add -p
+	aa = add --all
+	cm = commit -m
+	ca = commit --amend # careful
+	l = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+	ll = log --stat --abbrev-commit
+	d = diff --color-words
+	dh = diff --color-words head
+	lg = log --graph --decorate --oneline --all
+	lgb = log --graph --decorate --oneline 
+	co = checkout
+	chp = cherry-pick
+	br = branch
+	fa = fetch --all
+	fap = fetch --all --prune
+
+[color]
+    ui = auto
+	interactive = auto
+
+[core]
+    editor = vim
+
+[user]
+    email = fanny.risbourg@wandercraft.eu
+    name = Fanny Risbourg
